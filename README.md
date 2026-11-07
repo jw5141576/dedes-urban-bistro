@@ -52,32 +52,3 @@ To ensure the interface feels snappy and premium, the navigation items utilize a
 ├── README.md           # Project documentation and architectural overview
 └── css/
     └── style.css       # Core typography, structural layout, and bubble animations
-```
-
----
-
-## ⚙️ Setup & Local Development
-
-Follow these steps to run the repository locally on your development environment:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com
-   cd dedes-urban-bistro
-   ```
-
-2. **Launch the application:**
-   * Open `index.html` directly in any modern browser, or
-   * Use the **Live Server** extension in VS Code to run a local development server with hot-reloading active.
-
-3. **Production Deployment:**
-   This static front-end ecosystem is fully optimized for instant, zero-configuration deployment to edge networks like **Vercel** or
-   GitHub Pages.
-
----
-
-## 🛠️ Tech Stack
-
-*   **HTML5:** Strict semantic layout structures (`<header>`, `<nav>`, `<main>`, `<section>`).
-*   **CSS3:** Flexbox/Grid layouts, custom variables (`--primary-gold`, `--dark-bistro`), and smooth bezier transition keyframes for
-*   the interactive bubble layout.
