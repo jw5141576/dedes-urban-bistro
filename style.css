@@ -1,0 +1,21 @@
+/*1. Reset and box-sizing*/
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Brand colours & reusable values*/
+:root {
+    --primary: #1E90FF;
+    --secondary: #FF6347;
+
+    --background: #F5F5F5;
+    --text-color: #333333;
+    --font-family: Helvetica, Arial, sans-serif;
+    --border-radius: 6px;
+    --transition-speed: 0.3s;
+}
